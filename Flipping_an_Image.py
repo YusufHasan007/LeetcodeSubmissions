@@ -5,6 +5,7 @@ class Solution:
         for i in range(len(image)):
              image[i].reverse()
     
+    
              for j in range(len(image[i])):
                         if int(image[i][j]) == int(1):
                              image[i][j] = int(0)
